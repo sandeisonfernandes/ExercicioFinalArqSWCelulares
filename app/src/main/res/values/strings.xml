@@ -2,4 +2,7 @@
     <string name="app_name">ExercicioFinal</string>
     <string name="bateria">Status da Bateria</string>
     <string name="aplicacoesInstaladas">Aplicações Instaladas</string>
+    <string name="porcent">Porcentagem:</string>
+    <string name="infcarga">Infromação do carregamento:</string>
+    <string name="saude">Saude da Bateria:</string>
 </resources>

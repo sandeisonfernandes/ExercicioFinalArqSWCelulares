@@ -38,6 +38,12 @@ public class MainActivity extends AppCompatActivity {
             Intent in = new Intent(this, AplicacoesInstaladasActivity.class);
             startActivity(in);
         });
+
+        Intent intent = new Intent(this,MyIntentService.class);
+        intent.putExtra("TELA","tela 1");
+        startService(intent);
+
+
     }
 
     @Override
@@ -66,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
             mudaWifi.setTitle("Status do Wi-Fi !");
             mudaWifi.setMessage("Mudou .....  " + WifiManager.WIFI_STATE_CHANGED_ACTION.getClass());
             mudaWifi.create().show();
+
             Log.d("SSF", "O Status do wi fi mudou");
         }
     }

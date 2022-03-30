@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ExercicioFinal</string>
+    <string name="bateria">Status da Bateria</string>
+    <string name="aplicacoesInstaladas">Aplicações Instaladas</string>
 </resources>

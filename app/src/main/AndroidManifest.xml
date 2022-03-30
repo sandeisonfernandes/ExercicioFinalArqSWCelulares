@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExercicioFinal">
         <activity
+            android:name=".AplicacoesInstaladasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BateriaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
